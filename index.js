@@ -41,4 +41,11 @@ async function sendFCMNotification(deviceToken, title, body, data = {}) {
   }
 }
 
+// app.post('/api/test', (req, res) => {
+//   const payload = req.body;
+
+//   console.log('📦 Test API hit!', payload);
+//   console.log('📦 Webhook hit from Shiprocket');
+
+
 module.exports = { sendFCMNotification };
